@@ -42,6 +42,7 @@ public class Main {
          */
         List<Company> companies = new ArrayList<>();
 
+        // initialization companies
         Company chief = new Company(null,12);
         Company lawyer = new Company(chief,10);
         Company developer = new Company(chief,15);
